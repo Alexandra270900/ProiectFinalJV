@@ -14,8 +14,7 @@ public class Produs {
     @Override
     public String toString() {
         return "Produs: {" +
-                "numeProdus='" + numeProdus + '\'' +
-                ", pret=" + pret + "lei" +
+                numeProdus + ", pret=" + pret + "lei" +
                 ", cantitate=" + cantitate +
                 '}';
     }

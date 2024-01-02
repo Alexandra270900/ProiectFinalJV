@@ -81,7 +81,7 @@ public class Main {
 
                         }
                         magazin.adaugaProdus(new Produs(numeProdus, pretProdus, cantitateProdus));
-                        System.out.println("- Produsul " + numeProdus + " cu prețul de " + pretProdus +
+                        System.out.println("- Produsul [" + numeProdus + "] cu prețul de " + pretProdus +
                                 "lei, în cantitatea de " + cantitateProdus + " produse a fost adăugat cu success!");
                     }
                 }
