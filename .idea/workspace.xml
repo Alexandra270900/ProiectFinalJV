@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c244542-7d40-4758-a901-f4dd0bda6e17" name="Changes" comment="Update [1]">
+    <list default="true" id="5c244542-7d40-4758-a901-f4dd0bda6e17" name="Changes" comment="Update [2]">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/MeniuOptiuni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/OperatiuniDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/Magazin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/Magazin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/Produs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/Produs.java" afterDir="false" />
     </list>
@@ -17,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -28,12 +32,17 @@
         <option value="Alexandra &lt;alexandracostache27@yahoo.com&gt;" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2aMn0EaN5SV6dtPvufD1HEeVhhd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Modificari",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "E:/ProiectFinalJV/ProiectFinalJV/src/main/java/com/itfactory/Main.java"
   }
@@ -114,13 +123,22 @@
       <option name="project" value="LOCAL" />
       <updated>1704163659705</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update [2]">
+      <option name="closed" value="true" />
+      <created>1704165094499</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704165094499</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Update 1" />
     <MESSAGE value="Update [1]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update [1]" />
+    <MESSAGE value="Update [2]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update [2]" />
   </component>
 </project>

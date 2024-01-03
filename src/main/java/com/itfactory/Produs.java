@@ -11,14 +11,6 @@ public class Produs {
         this.cantitate = cantitate;
     }
 
-    @Override
-    public String toString() {
-        return "Produs: {" +
-                numeProdus + ", pret=" + pret + "lei" +
-                ", cantitate=" + cantitate +
-                '}';
-    }
-
     public String getNumeProdus() {
         return numeProdus;
     }
@@ -29,5 +21,21 @@ public class Produs {
 
     public void setCantitate(int cantitate) {
         this.cantitate = cantitate;
+    }
+
+    public double getPret() {
+        return pret;
+    }
+
+    public int getCantitate() {
+        return cantitate;
+    }
+
+    @Override
+    public String toString() {
+        return "Produs: {" +
+                numeProdus + ", pret=" + pret + "lei" +
+                ", cantitate=" + cantitate +
+                '}';
     }
 }
