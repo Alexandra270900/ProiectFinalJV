@@ -15,13 +15,6 @@ public class Produs {
         return numeProdus;
     }
 
-    public void setPret(double pret) {
-        this.pret = pret;
-    }
-
-    public void setCantitate(int cantitate) {
-        this.cantitate = cantitate;
-    }
 
     public double getPret() {
         return pret;

@@ -3,15 +3,18 @@ package com.itfactory;
 import java.util.List;
 import java.util.Scanner;
 
-public class Magazin {
+public class Magazin implements InterfataMetode {
     //Variabile
     public List<Produs> produseM;
+    public OperatiuniDB operatiuniDB;
 
-    public Magazin(List<Produs> produseDB) {
+    public Magazin(List<Produs> produseDB, OperatiuniDB operatiuniDB) {
+        this.operatiuniDB = operatiuniDB;
         this.produseM = produseDB;
     }
 
     //Afiseaza Produs
+    @Override
     public void afiseazaProduse() {
         System.out.println("1. Se Afisează lista de produse: ");
 
@@ -19,12 +22,13 @@ public class Magazin {
             System.out.println("În prezent nu exista produse in magazin!");
             System.out.println(" ");
         } else {
-            System.out.println(OperatiuniDB.afiseazaToateProdusele());
+            System.out.println(operatiuniDB.afiseazaToateProdusele());
             System.out.println(" ");
         }
     }
 
     //Adauga Produs
+    @Override
     public void adaugaProdus(Scanner scanner) {
         System.out.println("2a. Introduce-ți numele noului produs: ");
         String numeProdus = scanner.nextLine();
@@ -58,32 +62,31 @@ public class Magazin {
                 }
 
             }
-            OperatiuniDB.adaugaProduse(new Produs(numeProdus, pretProdus, cantitateProdus));
-            Main.Update();
-            System.out.println("- Produsul [" + numeProdus + "] cu prețul de " + pretProdus +
-                    "lei, în cantitatea de " + cantitateProdus + " produse a fost adăugat cu success!");
+            operatiuniDB.adaugaProduse(new Produs(numeProdus, pretProdus, cantitateProdus));
+            Main.Update(operatiuniDB);
         }
     }
 
     //Sterge Produs
+    @Override
     public void stergeProdus(Scanner scanner) {
         System.out.println("3.Introduce-ți numele produsului pe care doriți sa il ștergeți: ");
         String numeProdus = scanner.nextLine();
         if (verificareProdusExistent(numeProdus.toLowerCase())) {
             for (Produs produs : produseM) {
                 if (produs.getNumeProdus().equals(numeProdus)) {
-                    OperatiuniDB.stergeProdus(produs);
+                    operatiuniDB.stergeProdus(produs);
                 }
             }
-            Main.Update();
-            System.out.println("Produsul " + numeProdus + " a fost șters cu success!");
+            Main.Update(operatiuniDB);
         } else {
             System.out.println("Produsul nu există in magazin, verificați lista de produse!");
         }
     }
 
     //Modificare pret produs
-    public void modificaPretul(Scanner scanner) {
+    @Override
+    public void modificaPretProdus(Scanner scanner) {
         System.out.println("4.Introduce-ți numele produsului căruia doriți sa îi modificați prețul: ");
         String numeProdus = scanner.nextLine();
         if (verificareProdusExistent(numeProdus.toLowerCase())) {
@@ -101,12 +104,11 @@ public class Magazin {
             }
             for (Produs produs : produseM) {
                 if (produs.getNumeProdus().equals(numeProdus)) {
-                    OperatiuniDB.modificaPretul(produs, pretProdus);
-                    Main.Update();
+                    operatiuniDB.modificaPretul(produs, pretProdus);
+                    System.out.println(" ");
+                    Main.Update(operatiuniDB);
                 }
             }
-            System.out.println("Pretul produsului [" + numeProdus + "] a fost actualizat la suma de " + pretProdus + "Lei.");
-            System.out.println(" ");
         } else {
             System.out.println("Produsul nu exista in magazin, verificați lista de produse!");
             System.out.println(" ");
@@ -114,7 +116,8 @@ public class Magazin {
     }
 
     //Modificare cantitate produs
-    public void modificaCantitatea(Scanner scanner) {
+    @Override
+    public void modificaCantitateProdus(Scanner scanner) {
         System.out.println("5.Introduce-ți numele produsului căruia doriți sa ii modificați cantitatea: ");
         String numeProdus = scanner.nextLine();
         if (verificareProdusExistent(numeProdus.toLowerCase())) {
@@ -132,12 +135,11 @@ public class Magazin {
             }
             for (Produs produs : produseM) {
                 if (produs.getNumeProdus().equals(numeProdus)) {
-                    OperatiuniDB.modificaCantitatea(produs, cantitateProdus);
-                    Main.Update();
+                    operatiuniDB.modificaCantitatea(produs, cantitateProdus);
+                    System.out.println(" ");
+                    Main.Update(operatiuniDB);
                 }
             }
-            System.out.println("Cantitatea produsului [" + numeProdus + "] a fost actualizată la " + cantitateProdus + " produse.");
-            System.out.println(" ");
         } else {
             System.out.println("Produsul nu exista in magazin, verificați lista de produse!");
             System.out.println(" ");
@@ -145,6 +147,7 @@ public class Magazin {
     }
 
     //Verifica Produs Existent
+    @Override
     public boolean verificareProdusExistent(String numeProdus) {
         for (Produs produs : produseM) {
             if (produs.getNumeProdus().equals(numeProdus)) return true;

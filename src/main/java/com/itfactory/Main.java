@@ -4,14 +4,15 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        OperatiuniDB operatiuniDB = new OperatiuniDB();
 
-        Update();
+        Update(operatiuniDB);
 
     }
 
-    public static void Update() {
-        List<Produs> produseDB = OperatiuniDB.afiseazaToateProdusele();
-        Magazin magazin = new Magazin(produseDB);
+    public static void Update(OperatiuniDB operatiuniDB) {
+        List<Produs> produseDB = operatiuniDB.afiseazaToateProdusele();
+        Magazin magazin = new Magazin(produseDB, operatiuniDB);
 
         MeniuOptiuni.Meniu(magazin);
     }

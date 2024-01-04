@@ -52,12 +52,12 @@ public class MeniuOptiuni {
                 break;
 
                 case 4: {
-                    magazin.modificaPretul(inputUtilizator);
+                    magazin.modificaPretProdus(inputUtilizator);
                 }
                 break;
 
                 case 5: {
-                    magazin.modificaCantitatea(inputUtilizator);
+                    magazin.modificaCantitateProdus(inputUtilizator);
                 }
                 break;
 
