@@ -21,6 +21,7 @@ public class OperatiuniDBTest {
             operatiuniDB.adaugaProduse(produs);
         } else {
             operatiuniDB.afiseazaToateProdusele().clear();
+            assertEquals(0, operatiuniDB.afiseazaToateProdusele().size());
             System.out.println("DB CLEARED!");
             operatiuniDB.adaugaProduse(produs);
         }

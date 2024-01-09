@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c244542-7d40-4758-a901-f4dd0bda6e17" name="Changes" comment="Update [3]">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/InterfataMetode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OperatiuniDBTest.java" afterDir="false" />
+    <list default="true" id="5c244542-7d40-4758-a901-f4dd0bda6e17" name="Changes" comment="Update [4]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/Magazin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/Magazin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/MeniuOptiuni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/MeniuOptiuni.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/OperatiuniDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/OperatiuniDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/Produs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/Produs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OperatiuniDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OperatiuniDBTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,29 +45,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.OperatiuniDBTest.adaugaProdus.executor": "Run",
-    "JUnit.OperatiuniDBTest.adaugaProdus_Pozitiv.executor": "Debug",
-    "JUnit.OperatiuniDBTest.afiseazaProduse.executor": "Run",
-    "JUnit.OperatiuniDBTest.executor": "Run",
-    "JUnit.OperatiuniDBTest.modificaCantitateProdus.executor": "Run",
-    "JUnit.OperatiuniDBTest.modificaPretProdus.executor": "Run",
-    "JUnit.OperatiuniDBTest.modificaPretProdus_PretActualizatNegativ.executor": "Run",
-    "JUnit.OperatiuniDBTest.stergeProdus.executor": "Run",
-    "Maven.ProiectFinalJV [install].executor": "Run",
-    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender configuration",
-    "Notification.DoNotAsk-WindowsDefender": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "FinalVersion1.0",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "E:/ProiectFinalJV/ProiectFinalJV/src/main/java/com/itfactory/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.adaugaProdus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.adaugaProdus_Pozitiv.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.afiseazaProduse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.modificaCantitateProdus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.modificaCantitateProdus_Pozitiv.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.modificaPretProdus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.modificaPretProdus_PretActualizatNegativ.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.stergeProdus.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ProiectFinalJV [install].executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-WindowsDefender&quot;: &quot;Microsoft Defender configuration&quot;,
+    &quot;Notification.DoNotAsk-WindowsDefender&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;FinalVersion1.0&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/ProiectFinalJV/ProiectFinalJV/src/main/java/com/itfactory/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.OperatiuniDBTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itfactory.Main" />
@@ -108,6 +102,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OperatiuniDBTest.modificaCantitateProdus_Pozitiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectFinalJV" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OperatiuniDBTest" />
+      <option name="METHOD_NAME" value="modificaCantitateProdus_Pozitiv" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OperatiuniDBTest.modificaPretProdus_PretActualizatNegativ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProiectFinalJV" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,23 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatiuniDBTest.stergeProdus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProiectFinalJV" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OperatiuniDBTest" />
-      <option name="METHOD_NAME" value="stergeProdus" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.OperatiuniDBTest" />
+        <item itemvalue="JUnit.OperatiuniDBTest.modificaCantitateProdus_Pozitiv" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.OperatiuniDBTest.adaugaProdus_Pozitiv" />
         <item itemvalue="JUnit.OperatiuniDBTest.modificaPretProdus_PretActualizatNegativ" />
-        <item itemvalue="JUnit.OperatiuniDBTest.stergeProdus" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704242766166</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update [4]">
+      <option name="closed" value="true" />
+      <created>1704330920700</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704330920700</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,14 +205,15 @@
     <MESSAGE value="Update [1]" />
     <MESSAGE value="Update [2]" />
     <MESSAGE value="Update [3]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update [3]" />
+    <MESSAGE value="Update [4]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update [4]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/OperatiuniDBTest.java</url>
-          <line>34</line>
+          <line>35</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>

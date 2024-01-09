@@ -6,7 +6,7 @@ import java.util.List;
 
 public class OperatiuniDB {
 
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/itf";
+    private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/magazin";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "Admin";
 
@@ -30,6 +30,7 @@ public class OperatiuniDB {
 
 
         } catch (SQLException e) {
+            e.printStackTrace();
             System.out.println("Probleme la conectarea cu baza de date");
         }
         return produseDB;
