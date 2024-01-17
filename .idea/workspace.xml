@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c244542-7d40-4758-a901-f4dd0bda6e17" name="Changes" comment="Update [2]">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/MeniuOptiuni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/OperatiuniDB.java" afterDir="false" />
+    <list default="true" id="5c244542-7d40-4758-a901-f4dd0bda6e17" name="Changes" comment="Update [5]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/Magazin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/Magazin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/Produs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/Produs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itfactory/MeniuOptiuni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itfactory/MeniuOptiuni.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +30,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Modificari" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,21 +45,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Maven.ProiectFinalJV [install].executor": "Run",
-    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender configuration",
-    "Notification.DoNotAsk-WindowsDefender": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Modificari",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "E:/ProiectFinalJV/ProiectFinalJV/src/main/java/com/itfactory/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.adaugaProdus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.adaugaProdus_Pozitiv.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.afiseazaProduse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.modificaCantitateProdus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.modificaCantitateProdus_Pozitiv.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.modificaPretProdus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.modificaPretProdus_PretActualizatNegativ.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OperatiuniDBTest.stergeProdus.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ProiectFinalJV [install].executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-WindowsDefender&quot;: &quot;Microsoft Defender configuration&quot;,
+    &quot;Notification.DoNotAsk-WindowsDefender&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;FinalVersion1.0&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/ProiectFinalJV/ProiectFinalJV/src/main/java/com/itfactory/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ProiectFinalJV\ProiectFinalJV" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itfactory.Main" />
       <module name="ProiectFinalJV" />
@@ -77,15 +88,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OperatiuniDBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectFinalJV" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OperatiuniDBTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatiuniDBTest.adaugaProdus_Pozitiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectFinalJV" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OperatiuniDBTest" />
+      <option name="METHOD_NAME" value="adaugaProdus_Pozitiv" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatiuniDBTest.modificaCantitateProdus_Pozitiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectFinalJV" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OperatiuniDBTest" />
+      <option name="METHOD_NAME" value="modificaCantitateProdus_Pozitiv" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OperatiuniDBTest.modificaPretProdus_PretActualizatNegativ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectFinalJV" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OperatiuniDBTest" />
+      <option name="METHOD_NAME" value="modificaPretProdus_PretActualizatNegativ" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.OperatiuniDBTest" />
+        <item itemvalue="JUnit.OperatiuniDBTest.modificaCantitateProdus_Pozitiv" />
+        <item itemvalue="JUnit.OperatiuniDBTest.adaugaProdus_Pozitiv" />
+        <item itemvalue="JUnit.OperatiuniDBTest.modificaPretProdus_PretActualizatNegativ" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-e1d2075fd9a7-b4911678" />
         <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
       </set>
     </attachedChunks>
@@ -131,7 +186,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704165094499</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update [3]">
+      <option name="closed" value="true" />
+      <created>1704242766166</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704242766166</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update [4]">
+      <option name="closed" value="true" />
+      <created>1704330920700</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704330920700</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update [5]">
+      <option name="closed" value="true" />
+      <created>1704814455746</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704814455746</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,6 +218,9 @@
     <MESSAGE value="Update 1" />
     <MESSAGE value="Update [1]" />
     <MESSAGE value="Update [2]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update [2]" />
+    <MESSAGE value="Update [3]" />
+    <MESSAGE value="Update [4]" />
+    <MESSAGE value="Update [5]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update [5]" />
   </component>
 </project>

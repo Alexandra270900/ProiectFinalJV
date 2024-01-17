@@ -24,7 +24,7 @@ public class MeniuOptiuni {
             boolean OptiuneIncorecta = true;
             while (OptiuneIncorecta) {
                 try {
-                    System.out.println("Introduceți tasta corespunzătoare opțiunii dorite: ");
+                    System.out.print("Introduceți tasta corespunzătoare opțiunii dorite: ");
                     optiune = Integer.parseInt(inputUtilizator.nextLine());
                     OptiuneIncorecta = false;
                 } catch (NumberFormatException e) {
@@ -52,12 +52,12 @@ public class MeniuOptiuni {
                 break;
 
                 case 4: {
-                    magazin.modificaPretul(inputUtilizator);
+                    magazin.modificaPretProdus(inputUtilizator);
                 }
                 break;
 
                 case 5: {
-                    magazin.modificaCantitatea(inputUtilizator);
+                    magazin.modificaCantitateProdus(inputUtilizator);
                 }
                 break;
 
